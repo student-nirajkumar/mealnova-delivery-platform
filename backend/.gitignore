@@ -1,0 +1,63 @@
+.env
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build folders
+dist/
+build/
+out/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Cache
+.cache/
+.parcel-cache/
+.vite/
+.next/
+.nuxt/
+.svelte-kit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# Uploads (if local storage used)
+uploads/
+
+# MongoDB local data (optional)
+data/
+*.mongodb
+
+# React / frontend misc
+*.local
+
+# Package manager lock files (optional if you don’t want them tracked)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
